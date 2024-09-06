@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Magic Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Java Magic World!</h1>
+        <p>Help the wizard solve puzzles by writing Java code!</p>
+
+        <textarea id="codeArea" rows="10" cols="50">
+// Type your Java code here
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+        </textarea>
+
+        <br>
+        <button id="runCodeButton">Run Code</button>
+
+        <div class="output">
+            <h2>Output:</h2>
+            <pre id="outputArea"></pre>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
